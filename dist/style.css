@@ -1,0 +1,44 @@
+body {
+  font-family: Raleway, sans-serif;
+  height: 732px;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
+}
+
+.box {
+  width: 405px;
+  padding: 40px 50px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.box.dark-mode {
+  background: black;
+  color: #bbb;
+}
+.box.light-mode {
+  background: white;
+}
+
+.buttons.button {
+  width: 40px;
+  height: 40px;
+  display: block;
+  float: left;
+  cursor: pointer;
+}
+
+#new-quote {
+  cursor: pointer;
+  display: block;
+  float: right;
+  color: white;
+  padding: 6px 18px;
+  border-radius: 3px;
+}
+
+h5 {
+  text-align: right;
+  font-size: 18px;
+}
